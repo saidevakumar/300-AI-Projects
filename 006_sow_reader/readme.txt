@@ -1,16 +1,11 @@
 Project 006: SOW Reader & Analyzer
 
-The Goal: Build a script that uploads a PDF Statement of Work (SOW) to the Gemini API,
-asks for a structured summary and extraction of key project details, and prints the
-results—demonstrating file upload, document analysis, and prompt engineering.
+The Goal: Build a script that uploads a PDF Statement of Work (SOW) to the Gemini API, asks for a structured summary and extraction of key project details, and prints the results—demonstrating file upload, document analysis, and prompt engineering.
 
 What you learn:
-- File Upload & Document Handling — Uses client.files.upload() to upload a PDF,
-  letting the Gemini backend handle parsing and temporary storage.
-- Multi-Modal Prompting — Passes both the uploaded document and a detailed prompt
-  to client.models.generate_content(), enabling the model to read and analyze the file.
-- Structured Information Extraction — Crafts a prompt that requests a summary,
-  deliverables, and timeline, with fallback instructions if data is missing.
+- File Upload & Document Handling — Uses client.files.upload() to upload a PDF, letting the Gemini backend handle parsing and temporary storage.
+- Multi-Modal Prompting — Passes both the uploaded document and a detailed prompt to client.models.generate_content(), enabling the model to read and analyze the file.
+- Structured Information Extraction — Crafts a prompt that requests a summary, deliverables, and timeline, with fallback instructions if data is missing.
 - Safety Checks — Verifies the PDF exists before uploading, exiting gracefully if not.
 - Output Handling — Prints the AI-generated analysis directly to the console.
 
