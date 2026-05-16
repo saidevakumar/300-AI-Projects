@@ -1,0 +1,5 @@
+Name,Role,Hours_Available,Current_Project,Skills
+Cynthia,Frontend Developer,30,GCC Migration,React;TypeScript;CSS
+David,Backend Developer,10,Legacy Support,Node.js;Python;SQL
+Sarah,Cloud Architect,40,Unassigned,AWS;Azure;CyberArk
+Marcus,QA Engineer,25,GCC Migration,Test Automation;Selenium
